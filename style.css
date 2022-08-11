@@ -266,6 +266,9 @@ img {
     }
 }
 
+
+/*Blogs*/
+
 .article-list {
     color: #313437;
     background-color: #fff;
@@ -337,4 +340,45 @@ img {
 
 .article-list .item .action:hover {
     opacity: 1;
+}
+
+.col-ms-4 col-md-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .col-ms-4 col-md-12,
+    .form {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+#footer {
+    background-color: #E6E6FA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+#footer p {
+    color: black;
+}
+
+#footer h4 {
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 20px;
 }
